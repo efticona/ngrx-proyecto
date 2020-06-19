@@ -6,6 +6,7 @@ import {
   MULTIPLICAR,
   RESETEAR,
 } from './contador.actions';
+// import * as fromContador from './contador.actions';
 
 export function contadorReducer(state: number = 10, action: actions) {
   switch (action.type) {
